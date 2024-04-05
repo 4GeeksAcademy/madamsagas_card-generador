@@ -1,1 +1,55 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+
+div {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.div-left {
+  text-align: left;
+}
+.div-center {
+  text-align: center;
+  margin-top: 55px;
+  font-size: 100px;
+}
+
+.div-right {
+  text-align: right;
+  margin-top: 40px;
+  transform: rotate(180deg);
+}
+.pocker-card {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  height: 400px;
+  width: 250px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.red {
+  color: red;
+  font-size: 50px;
+}
+
+.black {
+  color: black;
+  font-size: 50px;
+}
+/* 
+.spade-club {
+  color: black;
+  font-size: 50px;
+}
+
+.heart-diamond {
+  color: red;
+  font-size: 50px;
+} */
